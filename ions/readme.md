@@ -33,3 +33,15 @@ trained with P2Rank commit 64be847 with command:
     -train_tessellation_negatives 1 \
     -delete_models 0
 ```
+
+
+# ions-rdk-c4-grid-zn.model
+
+```sh
+./prank.sh traineval -c config/ions/ions-rdk-c4-grid-zn -out_subdir NOV2 -label GRID1 \
+    -t ZN/ZN_ppu_all_Atrain.ds \
+    -e ZN/ZN_ppu_all_Atest.ds \
+    -visualizations 1 \
+    -delete_models 0
+```
+

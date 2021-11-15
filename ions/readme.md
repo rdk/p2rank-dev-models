@@ -45,3 +45,12 @@ trained with P2Rank commit 64be847 with command:
     -delete_models 0
 ```
 
+# ions-rdk-c4-grid-mg.model
+
+```sh
+./prank.sh traineval -c config/ions/ions-rdk-c4-grid-mg -out_subdir NOV2 -label GRID1 \
+    -t MG/MG_ppu_all_Atrain.ds \
+    -e MG/MG_ppu_all_Atest.ds \
+    -visualizations 1 \
+    -delete_models 0
+```
